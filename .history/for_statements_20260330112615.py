@@ -1,0 +1,24 @@
+# Measure some strings 
+
+words = ['Cow', 'Cat', 'Window', 'Rain', 'House']
+
+for w in words:
+    print(w, len(w))
+
+# Create a sample collection 
+
+users = ['Hans', 'active', 'Indian', 'inactive', 'Raj']
+
+# Strategy: Iterate over a copy 
+
+for user, status in users.copy().items():
+    if status == 'inactive':
+        del users[user]
+
+# Strategy: Create a new collection 
+
+active_users = {}
+
+for user, status in users.items():
+    if status == 'active':
+        active_users[user] = status
