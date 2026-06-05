@@ -1,0 +1,9 @@
+# what is session in django?
+
+# how to create tokens in django?
+
+In Django REST Framework, I typically use JWT authentication with Simple JWT. 
+When a user logs in with valid credentials, the server generates an Access Token and a Refresh Token. 
+The Access Token is sent in the Authorization header (Bearer token) for API requests. 
+The Refresh Token is used to generate a new Access Token when the old one expires, 
+providing secure and stateless authentication.

@@ -1,0 +1,2 @@
+# what is session in django?
+# how to create tokens in django?
