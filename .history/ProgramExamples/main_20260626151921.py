@@ -79,7 +79,7 @@ class B:
 class C:
     pass
 
-class D(C, A):
+class D(A, C):
     pass
 
 print(D.mro())

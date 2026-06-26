@@ -31,8 +31,8 @@ class Person:
         self.name = name
 
     def details(self):
-        print("Details of person", self.name, self.__age)    
+        print("Details of person", self.name)    
 
 obj = Person(45, "Raj")
 
-obj.details()
+print(obj.name)

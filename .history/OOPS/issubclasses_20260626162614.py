@@ -35,4 +35,4 @@ class Person:
 
 obj = Person(45, "Raj")
 
-obj.details()
+print(obj.details())
